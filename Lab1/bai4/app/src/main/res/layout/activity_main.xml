@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/convertButton"
+        android:layout_width="183dp"
+        android:layout_height="52dp"
+        android:layout_marginStart="12dp"
+        android:layout_marginBottom="372dp"
+        android:backgroundTint="#8842F6"
+        android:text="Convert"
+        android:textColor="#F6F2F2"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/clearButton" />
+
+    <EditText
+        android:id="@+id/vndEditText"
+        android:layout_width="231dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="244dp"
+        android:ems="10"
+        android:inputType="text"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+    <EditText
+        android:id="@+id/euroEditText"
+        android:layout_width="234dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="172dp"
+        android:ems="10"
+        android:inputType="text"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+    <TextView
+        android:id="@+id/vndView"
+        android:layout_width="52dp"
+        android:layout_height="27dp"
+        android:layout_marginStart="92dp"
+        android:layout_marginTop="260dp"
+        android:text="VND"
+        android:textSize="20sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/euroView"
+        android:layout_width="65dp"
+        android:layout_height="32dp"
+        android:layout_marginStart="80dp"
+        android:layout_marginTop="188dp"
+        android:text="Euros"
+        android:textSize="20sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="413dp"
+        android:layout_height="71dp"
+        android:layout_marginTop="4dp"
+        android:background="#DA53E3"
+        android:backgroundTint="#8842F6"
+        android:text="      Currency Converter"
+        android:textAlignment="gravity"
+        android:textColor="#F5F5F5"
+        android:textSize="24sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/usView"
+        android:layout_width="109dp"
+        android:layout_height="29dp"
+        android:layout_marginStart="36dp"
+        android:layout_marginTop="120dp"
+        android:text="US Dollars"
+        android:textSize="20sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/usEditText"
+        android:layout_width="233dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="104dp"
+        android:ems="10"
+        android:hint="Enter US Dollars amount"
+        android:inputType="text"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/clearButton"
+        android:layout_width="183dp"
+        android:layout_height="52dp"
+        android:layout_marginStart="4dp"
+        android:layout_marginBottom="372dp"
+        android:backgroundTint="#8842F6"
+        android:text="Clear"
+        android:textColor="#F6F2F2"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
