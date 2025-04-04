@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/btnAddFolder"
+        android:icon="@drawable/baseline_create_new_folder_24"
+        android:title="Item"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/btnAddFile"
+        android:icon="@drawable/baseline_note_add_24"
+        android:title="Item"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/btnRemoveAll"
+        android:title="Remove All" />
+    <item
+        android:id="@+id/btnRemoveSelected"
+        android:title="Remove Selected" />
+</menu>
